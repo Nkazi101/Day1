@@ -16,7 +16,7 @@ public class MethodEx {
 
         }
 
-        public static String evenorOdd(int number){
+        public static String evenorOdd(int number)  {
 
             
             if(number % 2 == 0)

@@ -1,0 +1,45 @@
+.signupbox{
+
+
+    border: 1px solid;
+    text-align: center;
+    border-radius: 20px;
+    padding: 10px;
+    background-color: antiquewhite;
+    width: 40%;
+    margin: 0% auto;
+
+    
+   
+}
+
+
+.signupbox form label{
+
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+
+.signupbox form input {
+
+    width: 50%;
+}
+
+
+.signupbox form input [type="text"] ,
+.signupbox form input [type="email"],
+.signupbox form input [type="password"],
+.signupbox form input [type="datetime"]
+
+{
+ 
+    margin: 20px;
+    padding: 10px;
+    border-radius: 15px;
+    width: 100%;
+
+}
+
+

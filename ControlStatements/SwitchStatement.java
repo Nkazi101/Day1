@@ -19,6 +19,7 @@ public class SwitchStatement {
         int choice = input.nextInt();
 
         
+        //switch(variable)
 
         
 

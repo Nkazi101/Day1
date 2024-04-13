@@ -1,0 +1,46 @@
+/* .style {
+
+    color:blue;
+    border:
+
+} */
+
+body {
+
+    background-color: #d14014;
+
+}
+
+p{
+
+    border: 20px solid;
+
+}
+
+.doglist {
+
+
+
+
+}
+
+
+h1{
+
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 50pt;
+    font-weight: bold;
+    text-decoration: underline;
+
+    border: 10px solid coral;
+}
+
+
+.userform{
+
+    border: 5px solid black;
+    padding: 5px;
+    margin: 10px;
+
+
+}

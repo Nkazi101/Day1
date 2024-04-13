@@ -1,5 +1,7 @@
 package Classes;
 
+import java.util.Scanner;
+
 public class Main {
     
 
@@ -7,16 +9,27 @@ public class Main {
 
     {
 
-        Dog buddy = new Dog();
+        // Dog dog1 = new Dog();
 
-        buddy.setBreed("Jack Russell");
-        buddy.setAge(12);
-        buddy.setColor("yellow");
+        // dog1.setBreed("Jack Russell");
+        // dog1.setAge(12);
+        // dog1.setColor("yellow");
 
-        buddy.bark();
+        // dog1.bark();
 
-        Dog bucky = new Dog();
+        
+        // Dog dog2 = new Dog();
 
+        // dog2.bark();
+
+        Cat cat1 = new Cat();
+
+        cat1.eating(" Sardines");
+
+
+        Dog dog3 = new Dog();
+
+        dog3.soundMaking(6);
         
        
 

@@ -1,8 +1,13 @@
 package Classes;
 
-public class Dog {
+import java.util.Arrays;
+
+public class Dog extends Animal  implements AnimalBehaviours {
 
     //variables, properties, fields
+
+    private String name;
+
     private String breed;
 
     private int age;
@@ -11,16 +16,18 @@ public class Dog {
 
     private String gender;
 
+    
 
+
+    //setting the initial as empty
     public Dog(){
 
     }
-     //constructors
-     public Dog(String breed, int age, String color)
+     //constructors: set an initial state of an object
+     public Dog(String breed)
      {
          this.breed = breed;
-         this.age = age;
-         this.color = color;
+       
      }
  
 
@@ -43,7 +50,11 @@ public class Dog {
 
 
     public void setAge(int age) {
-        this.age = age;
+        if(age < 0){
+
+            this.age = age;
+        }
+        
     }
 
 
@@ -63,7 +74,7 @@ public class Dog {
     public void bark(){
 
 
-        System.out.println(breed + "Woof woof");
+        System.out.println(breed + "" +  "Woof woof");
 
     }
 
@@ -78,6 +89,18 @@ public class Dog {
         System.out.println("I'm eating");
 
     }
+
+    @Override
+    public void eating(){
+        System.out.println("Dog is eating" + 0.20);
+    }
+
+   public void soundMaking(int count){
+
+    for(int i = 0; i < count; i++){
+        System.out.println("Dog barks");
+    }
+   }
 
     
 
