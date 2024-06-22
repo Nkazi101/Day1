@@ -9,11 +9,14 @@ public class Main {
 
     {
 
-        // Dog dog1 = new Dog();
+        Dog dog1 = new Dog();
 
-        // dog1.setBreed("Jack Russell");
-        // dog1.setAge(12);
-        // dog1.setColor("yellow");
+        dog1.setBreed("Jack Russell");
+        dog1.setAge(12);
+        dog1.setColor("yellow");
+
+
+       System.out.println(dog1.getBreed()); 
 
         // dog1.bark();
 
@@ -22,14 +25,14 @@ public class Main {
 
         // dog2.bark();
 
-        Cat cat1 = new Cat();
+        // Cat cat1 = new Cat();
 
-        cat1.eating(" Sardines");
+        // cat1.eating(" Sardines");
 
 
-        Dog dog3 = new Dog();
+        // Dog dog3 = new Dog();
 
-        dog3.soundMaking(6);
+        // dog3.soundMaking(6);
         
        
 
